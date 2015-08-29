@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tetris", "tetris\tetris.vcxproj", "{86D2BD34-571E-4881-80CD-4E59F67ABBF6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ㅁㄴㅍ", "ㅁㄴㅍ\ㅁㄴㅍ.vcxproj", "{3AA3CC2E-F751-4A97-99DA-58EF598F3188}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vrsav", "vrsav\vrsav.vcxproj", "{72369ADE-40DF-4AA4-81AB-7C600136C87F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TetrisGame", "TetrisGame\TetrisGame.vcxproj", "{CA9F81DC-5088-4076-8826-0986C9037E43}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86D2BD34-571E-4881-80CD-4E59F67ABBF6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{86D2BD34-571E-4881-80CD-4E59F67ABBF6}.Debug|Win32.Build.0 = Debug|Win32
+		{86D2BD34-571E-4881-80CD-4E59F67ABBF6}.Release|Win32.ActiveCfg = Release|Win32
+		{86D2BD34-571E-4881-80CD-4E59F67ABBF6}.Release|Win32.Build.0 = Release|Win32
+		{3AA3CC2E-F751-4A97-99DA-58EF598F3188}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3AA3CC2E-F751-4A97-99DA-58EF598F3188}.Debug|Win32.Build.0 = Debug|Win32
+		{3AA3CC2E-F751-4A97-99DA-58EF598F3188}.Release|Win32.ActiveCfg = Release|Win32
+		{3AA3CC2E-F751-4A97-99DA-58EF598F3188}.Release|Win32.Build.0 = Release|Win32
+		{72369ADE-40DF-4AA4-81AB-7C600136C87F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{72369ADE-40DF-4AA4-81AB-7C600136C87F}.Debug|Win32.Build.0 = Debug|Win32
+		{72369ADE-40DF-4AA4-81AB-7C600136C87F}.Release|Win32.ActiveCfg = Release|Win32
+		{72369ADE-40DF-4AA4-81AB-7C600136C87F}.Release|Win32.Build.0 = Release|Win32
+		{CA9F81DC-5088-4076-8826-0986C9037E43}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CA9F81DC-5088-4076-8826-0986C9037E43}.Debug|Win32.Build.0 = Debug|Win32
+		{CA9F81DC-5088-4076-8826-0986C9037E43}.Release|Win32.ActiveCfg = Release|Win32
+		{CA9F81DC-5088-4076-8826-0986C9037E43}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

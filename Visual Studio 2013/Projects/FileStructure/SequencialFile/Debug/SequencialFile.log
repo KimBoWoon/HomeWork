@@ -1,0 +1,26 @@
+﻿빌드 시작: 2015-05-09 오전 10:53:08
+     1>2 노드의 "C:\Users\보운\documents\visual studio 2013\Projects\FileStructure\SequencialFile\SequencialFile.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt AscendingSorting.cpp FileWriteException.cpp FindKey.cpp Main.cpp NewMasterFile.cpp Record.cpp TransactionFile.cpp
+         TransactionFile.cpp
+         Record.cpp
+         NewMasterFile.cpp
+         Main.cpp
+         FindKey.cpp
+         FileWriteException.cpp
+         AscendingSorting.cpp
+         코드를 생성하고 있습니다...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\보운\documents\visual studio 2013\Projects\FileStructure\Debug\SequencialFile.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\보운\documents\visual studio 2013\Projects\FileStructure\Debug\SequencialFile.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\보운\documents\visual studio 2013\Projects\FileStructure\Debug\SequencialFile.lib" /MACHINE:X86 Debug\AscendingSorting.obj
+         Debug\FileWriteException.obj
+         Debug\FindKey.obj
+         Debug\Main.obj
+         Debug\NewMasterFile.obj
+         Debug\Record.obj
+         Debug\TransactionFile.obj
+         SequencialFile.vcxproj -> C:\Users\보운\documents\visual studio 2013\Projects\FileStructure\Debug\SequencialFile.exe
+     1>"C:\Users\보운\documents\visual studio 2013\Projects\FileStructure\SequencialFile\SequencialFile.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:17.07

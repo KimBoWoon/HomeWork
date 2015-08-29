@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "숫자 맞추기", "숫자 맞추기\숫자 맞추기.vcproj", "{1A7E0E0B-D50C-499A-A12F-DF4462A50A37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A7E0E0B-D50C-499A-A12F-DF4462A50A37}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1A7E0E0B-D50C-499A-A12F-DF4462A50A37}.Debug|Win32.Build.0 = Debug|Win32
+		{1A7E0E0B-D50C-499A-A12F-DF4462A50A37}.Release|Win32.ActiveCfg = Release|Win32
+		{1A7E0E0B-D50C-499A-A12F-DF4462A50A37}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

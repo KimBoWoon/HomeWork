@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="prob13">
+</Property><Property Name="솔루션 파일" Value="C:\Users\보운\Documents\Visual Studio 2008\Projects\1학기\prob13\prob13.sln">
+</Property><Property Name="Date" Value="2014년 3월 11일 화요일">
+</Property><Property Name="Time" Value="오후 21:38">
+</Property></Properties><Event ErrorLevel="0" Project="prob13" Source="prob13\prob13.vcproj" Description="Converting project file 'C:\Users\보운\Documents\Visual Studio 2008\Projects\1학기\prob13\prob13\prob13.vcproj'.">
+</Event><Event ErrorLevel="1" Project="prob13" Source="prob13\prob13.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="prob13" Source="prob13\prob13.vcproj" Description="Done converting to new project file 'C:\Users\보운\Documents\Visual Studio 2008\Projects\1학기\prob13\prob13\prob13.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="prob13" Source="prob13\prob13.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="prob13.sln" Description="솔루션을 변환했습니다.">
+</Event><Event ErrorLevel="3" Project="" Source="prob13.sln" Description="Converted">
+</Event></UpgradeLog>

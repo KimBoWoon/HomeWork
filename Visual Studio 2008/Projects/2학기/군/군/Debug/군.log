@@ -1,0 +1,24 @@
+﻿빌드 시작: 2015-04-05 오후 2:14:02
+     1>2 노드의 "C:\Users\보운\Documents\Visual Studio 2008\Projects\2학기\군\군\군.vcxproj" 프로젝트(Rebuild 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt "군.c"
+         군.c
+     1>c:\users\보운\documents\visual studio 2008\projects\2학기\군\군\군.c(82): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 'fopen' 선언을 참조하십시오.
+     1>c:\users\보운\documents\visual studio 2008\projects\2학기\군\군\군.c(89): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(283) : 'scanf' 선언을 참조하십시오.
+     1>c:\users\보운\documents\visual studio 2008\projects\2학기\군\군\군.c(92): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(283) : 'scanf' 선언을 참조하십시오.
+     1>c:\users\보운\documents\visual studio 2008\projects\2학기\군\군\군.c(79): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+     1>c:\users\보운\documents\visual studio 2008\projects\2학기\군\군\군.c(78): warning C4101: 'OldSec' :참조되지 않은 지역 변수입니다.
+     1>c:\users\보운\documents\visual studio 2008\projects\2학기\군\군\군.c(79): warning C4101: 'cases' :참조되지 않은 지역 변수입니다.
+     1>c:\users\보운\documents\visual studio 2008\projects\2학기\군\군\군.c(136): warning C4098: 'compute' : 'void' 함수에서 값을 반환하고 있습니다.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\보운\Documents\Visual Studio 2008\Projects\2학기\군\Debug\군.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\보운\Documents\Visual Studio 2008\Projects\2학기\군\Debug\군.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\보운\Documents\Visual Studio 2008\Projects\2학기\군\Debug\군.lib" /MACHINE:X86 /SAFESEH "Debug\군.obj"
+     1>군.obj : warning LNK4075: '/EDITANDCONTINUE'이(가) '/SAFESEH' 사양으로 인해 무시됩니다.
+         군.vcxproj -> C:\Users\보운\Documents\Visual Studio 2008\Projects\2학기\군\Debug\군.exe
+     1>"C:\Users\보운\Documents\Visual Studio 2008\Projects\2학기\군\군\군.vcxproj" 프로젝트를 빌드했습니다(Rebuild 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:02.32

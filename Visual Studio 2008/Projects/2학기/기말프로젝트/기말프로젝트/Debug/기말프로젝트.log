@@ -1,0 +1,27 @@
+﻿빌드 시작: 2015-01-12 오후 4:26:41
+     1>2 노드의 "C:\Users\보운\Documents\Visual Studio 2008\Projects\2학기\기말프로젝트\기말프로젝트\기말프로젝트.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt StudentData.c
+         StudentData.c
+     1>c:\users\보운\documents\visual studio 2008\projects\2학기\기말프로젝트\기말프로젝트\studentdata.c(20): warning C4013: 'ModifyStudent'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+     1>c:\users\보운\documents\visual studio 2008\projects\2학기\기말프로젝트\기말프로젝트\studentdata.c(23): warning C4013: 'DeleteStudent'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+     1>c:\users\보운\documents\visual studio 2008\projects\2학기\기말프로젝트\기말프로젝트\studentdata.c(26): warning C4013: 'PrintStudent'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+     1>c:\users\보운\documents\visual studio 2008\projects\2학기\기말프로젝트\기말프로젝트\studentdata.c(29): warning C4013: 'FilePrint'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+     1>c:\users\보운\documents\visual studio 2008\projects\2학기\기말프로젝트\기말프로젝트\studentdata.c(123): warning C4716: 'ModifyStudent' : 값을 반환해야 합니다.
+     1>c:\users\보운\documents\visual studio 2008\projects\2학기\기말프로젝트\기말프로젝트\studentdata.c(188): warning C4716: 'PrintStudent' : 값을 반환해야 합니다.
+     1>c:\users\보운\documents\visual studio 2008\projects\2학기\기말프로젝트\기말프로젝트\studentdata.c(174): warning C4716: 'DeleteStudent' : 값을 반환해야 합니다.
+     1>c:\users\보운\documents\visual studio 2008\projects\2학기\기말프로젝트\기말프로젝트\studentdata.c(68): warning C4716: 'InputStudent' : 값을 반환해야 합니다.
+       Link:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\보운\Documents\Visual Studio 2008\Projects\2학기\기말프로젝트\Debug\기말프로젝트.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\보운\Documents\Visual Studio 2008\Projects\2학기\기말프로젝트\Debug\기말프로젝트.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\보운\Documents\Visual Studio 2008\Projects\2학기\기말프로젝트\Debug\기말프로젝트.lib" /MACHINE:X86 /SAFESEH Debug\fprint.obj
+         Debug\StudentData.obj
+         Debug\main.obj
+         Debug\menuview.obj
+         Debug\print.obj
+         Debug\sort.obj
+     1>fprint.obj : warning LNK4075: '/EDITANDCONTINUE'이(가) '/SAFESEH' 사양으로 인해 무시됩니다.
+         기말프로젝트.vcxproj -> C:\Users\보운\Documents\Visual Studio 2008\Projects\2학기\기말프로젝트\Debug\기말프로젝트.exe
+     1>"C:\Users\보운\Documents\Visual Studio 2008\Projects\2학기\기말프로젝트\기말프로젝트\기말프로젝트.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:00.29

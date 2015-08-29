@@ -1,0 +1,2 @@
+﻿  Practice.cpp
+c:\users\보운\documents\visual studio 2013\projects\practice2\practice2\practice.cpp(23): error C2065: 'LC_ALL' : 선언되지 않은 식별자입니다.

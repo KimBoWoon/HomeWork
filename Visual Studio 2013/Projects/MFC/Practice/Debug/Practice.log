@@ -1,0 +1,24 @@
+﻿빌드 시작: 2014-12-10 오전 11:05:56
+     1>2 노드의 "C:\Users\보운\Documents\Visual Studio 2013\Projects\MFC\Practice\Practice.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Practice.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt PracticeView.cpp
+         PracticeView.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\보운\Documents\Visual Studio 2013\Projects\MFC\Debug\Practice.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\보운\Documents\Visual Studio 2013\Projects\MFC\Debug\Practice.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\보운\Documents\Visual Studio 2013\Projects\MFC\Debug\Practice.lib" /MACHINE:X86 Debug\Practice.res
+         Debug\ClassView.obj
+         Debug\Dlg.obj
+         Debug\FileView.obj
+         Debug\MainFrm.obj
+         Debug\OutputWnd.obj
+         Debug\Practice.obj
+         Debug\PracticeDoc.obj
+         Debug\PracticeView.obj
+         Debug\PropertiesWnd.obj
+         Debug\stdafx.obj
+         Debug\ViewTree.obj
+         Practice.vcxproj -> C:\Users\보운\Documents\Visual Studio 2013\Projects\MFC\Debug\Practice.exe
+     1>"C:\Users\보운\Documents\Visual Studio 2013\Projects\MFC\Practice\Practice.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:00.29

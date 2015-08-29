@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AVLTree", "AVLTree\AVLTree.vcxproj", "{33D87439-954F-4F8B-B657-61A6117B14FA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BinarySearchTree", "BinarySearchTree\BinarySearchTree.vcxproj", "{27936AF6-E066-4D79-98A1-AB4CED263055}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SequencialFile", "SequencialFile\SequencialFile.vcxproj", "{59BF3D4C-F74C-4349-B461-6C5F53C75866}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BTree", "BTree\BTree.vcxproj", "{225C2AD3-D49C-40B3-8E4E-D88ACE6F3560}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33D87439-954F-4F8B-B657-61A6117B14FA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{33D87439-954F-4F8B-B657-61A6117B14FA}.Debug|Win32.Build.0 = Debug|Win32
+		{33D87439-954F-4F8B-B657-61A6117B14FA}.Release|Win32.ActiveCfg = Release|Win32
+		{33D87439-954F-4F8B-B657-61A6117B14FA}.Release|Win32.Build.0 = Release|Win32
+		{27936AF6-E066-4D79-98A1-AB4CED263055}.Debug|Win32.ActiveCfg = Debug|Win32
+		{27936AF6-E066-4D79-98A1-AB4CED263055}.Debug|Win32.Build.0 = Debug|Win32
+		{27936AF6-E066-4D79-98A1-AB4CED263055}.Release|Win32.ActiveCfg = Release|Win32
+		{27936AF6-E066-4D79-98A1-AB4CED263055}.Release|Win32.Build.0 = Release|Win32
+		{59BF3D4C-F74C-4349-B461-6C5F53C75866}.Debug|Win32.ActiveCfg = Debug|Win32
+		{59BF3D4C-F74C-4349-B461-6C5F53C75866}.Debug|Win32.Build.0 = Debug|Win32
+		{59BF3D4C-F74C-4349-B461-6C5F53C75866}.Release|Win32.ActiveCfg = Release|Win32
+		{59BF3D4C-F74C-4349-B461-6C5F53C75866}.Release|Win32.Build.0 = Release|Win32
+		{225C2AD3-D49C-40B3-8E4E-D88ACE6F3560}.Debug|Win32.ActiveCfg = Debug|Win32
+		{225C2AD3-D49C-40B3-8E4E-D88ACE6F3560}.Debug|Win32.Build.0 = Debug|Win32
+		{225C2AD3-D49C-40B3-8E4E-D88ACE6F3560}.Release|Win32.ActiveCfg = Release|Win32
+		{225C2AD3-D49C-40B3-8E4E-D88ACE6F3560}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

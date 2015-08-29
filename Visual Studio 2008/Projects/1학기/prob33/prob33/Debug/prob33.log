@@ -1,0 +1,20 @@
+﻿빌드 시작: 2014-10-25 오후 8:58:07
+     1>2 노드의 "C:\Users\김보운\Documents\Visual Studio 2008\Projects\1학기\prob33\prob33\prob33.vcxproj" 프로젝트(Rebuild 대상)입니다.
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt prob33.c
+         prob33.c
+     1>c:\users\김보운\documents\visual studio 2008\projects\1학기\prob33\prob33\prob33.c(12): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(211) : 'fopen' 선언을 참조하십시오.
+     1>c:\users\김보운\documents\visual studio 2008\projects\1학기\prob33\prob33\prob33.c(16): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(230) : 'fscanf' 선언을 참조하십시오.
+     1>c:\users\김보운\documents\visual studio 2008\projects\1학기\prob33\prob33\prob33.c(22): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(230) : 'fscanf' 선언을 참조하십시오.
+       Link:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\김보운\Documents\Visual Studio 2008\Projects\1학기\prob33\Debug\prob33.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\김보운\Documents\Visual Studio 2008\Projects\1학기\prob33\Debug\prob33.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\김보운\Documents\Visual Studio 2008\Projects\1학기\prob33\Debug\prob33.lib" /MACHINE:X86 /SAFESEH Debug\prob33.obj
+     1>prob33.obj : warning LNK4075: '/EDITANDCONTINUE'이(가) '/SAFESEH' 사양으로 인해 무시됩니다.
+         prob33.vcxproj -> C:\Users\김보운\Documents\Visual Studio 2008\Projects\1학기\prob33\Debug\prob33.exe
+     1>"C:\Users\김보운\Documents\Visual Studio 2008\Projects\1학기\prob33\prob33\prob33.vcxproj" 프로젝트를 빌드했습니다(Rebuild 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:00.92

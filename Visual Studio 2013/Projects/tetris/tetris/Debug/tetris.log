@@ -1,0 +1,27 @@
+﻿빌드 시작: 2015-06-03 오후 6:42:24
+     1>2 노드의 "C:\Users\보운\Documents\Visual Studio 2013\Projects\tetris\tetris\tetris.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\pdc34dll /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Tetris_Game_Block_Draw.cpp Tetris_Game_Game_Play.cpp Tetris_Game_Interface.cpp Tetris_Game_Key_Update.cpp Tetris_Game_Main.cpp
+         Tetris_Game_Main.cpp
+     1>c:\users\보운\documents\visual studio 2013\projects\tetris\tetris\tetris_game_main.cpp(40): warning C4244: '인수' : 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+         Tetris_Game_Key_Update.cpp
+         Tetris_Game_Interface.cpp
+         Tetris_Game_Game_Play.cpp
+         Tetris_Game_Block_Draw.cpp
+         코드를 생성하고 있습니다...
+     1>c:\users\보운\documents\visual studio 2013\projects\tetris\tetris\tetris_game_key_update.cpp(28): warning C4715: 'KeySet::input_key' : 모든 제어 경로에서 값을 반환하지는 않습니다.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\보운\Documents\Visual Studio 2013\Projects\tetris\Debug\tetris.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\pdc34dll pdcurses.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\tetris.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\보운\Documents\Visual Studio 2013\Projects\tetris\Debug\tetris.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\보운\Documents\Visual Studio 2013\Projects\tetris\Debug\tetris.lib" /MACHINE:X86 Debug\Tetris_Game_Block_Draw.obj
+         Debug\Tetris_Game_Game_Play.obj
+         Debug\Tetris_Game_Interface.obj
+         Debug\Tetris_Game_Key_Update.obj
+         Debug\Tetris_Game_Main.obj
+         LINK : C:\Users\보운\Documents\Visual Studio 2013\Projects\tetris\Debug\tetris.exe을(를) 찾을 수 없거나 마지막 증분 링크에 의해 빌드되지 않았습니다. 전체 링크를 수행하고 있습니다.
+         tetris.vcxproj -> C:\Users\보운\Documents\Visual Studio 2013\Projects\tetris\Debug\tetris.exe
+       Manifest:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\mt.exe /nologo /verbose /out:"C:\Users\보운\Documents\Visual Studio 2013\Projects\tetris\Debug\tetris.exe.manifest" /manifest Debug\tetris.exe.intermediate.manifest
+     1>"C:\Users\보운\Documents\Visual Studio 2013\Projects\tetris\tetris\tetris.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:07.54

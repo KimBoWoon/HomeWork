@@ -1,0 +1,53 @@
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+void PrintOFUpDiamond(int number);
+void PrintOFDownDiamond(int number);
+
+void main(void){
+	ifstream z;
+	z.open("input.txt");
+	if (z.fail()){
+		cerr << "Input file opening failed.\n";
+		exit(true);
+	}
+	int no_cases, number;
+	z >> no_cases;
+	for (int i = 0; i < no_cases; i++){
+		z >> number;
+		PrintOFUpDiamond(number);
+		PrintOFDownDiamond(number);
+	}
+	z.close();
+}
+void PrintOFUpDiamond(int number){
+	for (int i = (number + 1) / 2; i >= 1; i--){
+		for (int j = 0; j<(number - (2 * i - 1)) / 2; j++)
+			cout << '-';
+		for (int j = 0; j<(2 * i - 1); j++){
+			if (!(j % 2))
+				cout << '*';
+			else
+				cout << '+';
+		}
+		for (int j = 0; j<(number - (2 * i - 1)) / 2; j++)
+			cout << '-';
+		cout << endl;
+	}
+}
+void PrintOFDownDiamond(int number){
+	for (int i = 1; i<(number + 1) / 2; i++){
+		for (int j = 0; j<(number - (2 * i - 1)) / 2 - 1; j++)
+			cout << '-';
+		for (int j = 0; j<(2 * i + 1); j++){
+			if (!(j % 2))
+				cout << '*';
+			else
+				cout << '+';
+		}
+		for (int j = 0; j<(number - (2 * i - 1)) / 2 - 1; j++)
+			cout << '-';
+		cout << endl;
+	}
+}
