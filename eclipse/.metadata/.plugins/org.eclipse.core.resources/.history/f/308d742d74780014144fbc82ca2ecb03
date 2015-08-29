@@ -1,0 +1,14 @@
+package factorials;
+
+public class MathUtils 
+{
+	public static int factorial(int n) throws IllegalArgumentException
+	{
+		if (n < 0 || n > 16)
+			throw new IllegalArgumentException(n + "은 입력될 수 없습니다.\n0 ~ 16 사이의 숫자를 입력하세요");
+		int fac = 1;
+		for(int i = n; i > 0; i--)
+			fac *= i;
+		return fac;
+	}
+}

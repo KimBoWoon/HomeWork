@@ -1,0 +1,14 @@
+package bankaccount;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+/**
+   This program tests the Bank class.
+ */
+public class BankTester
+{
+	public static void main(String[] args)
+	{
+	}
+}

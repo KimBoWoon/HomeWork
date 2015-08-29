@@ -1,0 +1,25 @@
+interface a{
+	public void ad();
+}
+
+interface b
+{
+	public void ad();
+}
+
+interface d
+{
+	public void ad();
+}
+
+class c implements a, b,d{
+	public void ad(){
+		System.out.println("FUCKYOU");
+	}
+	public static void main(String[] args)
+	{
+		c cl = new c();
+		
+		cl.ad();
+	}
+}

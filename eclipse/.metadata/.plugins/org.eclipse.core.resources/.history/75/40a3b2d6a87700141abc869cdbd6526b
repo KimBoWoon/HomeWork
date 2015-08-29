@@ -1,0 +1,28 @@
+package rectangle;
+
+import java.awt.Rectangle;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+
+public class A
+{
+	public static void main(String[] args)
+	{
+		Rectangle rect1 = new Rectangle(5, 10, 20, 30);
+		Rectangle rect2 = new Rectangle(10, 20, 30, 15);
+		Rectangle rect3 = new Rectangle(20, 30, 45, 10);
+		// put the rectangles into a list
+		ArrayList<Rectangle> list = new ArrayList<Rectangle>();
+		Comparator<Rectangle> comp = new Compare();
+		list.add(rect1);
+		list.add(rect2);
+		list.add(rect3);
+		// call the library sort method
+		//Collections.sort(list);
+		Collections.sort(list, comp);
+		// print out the sorted list
+		for (Rectangle r : list)
+			System.out.println(r.getWidth() + " " + r.getHeight());
+	}
+}

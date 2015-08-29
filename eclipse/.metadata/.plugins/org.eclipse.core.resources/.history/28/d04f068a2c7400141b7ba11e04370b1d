@@ -1,0 +1,4 @@
+public class Practice
+{
+	abstract public static String sendName();
+}

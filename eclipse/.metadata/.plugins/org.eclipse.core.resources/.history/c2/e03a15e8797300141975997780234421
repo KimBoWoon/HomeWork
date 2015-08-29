@@ -1,0 +1,17 @@
+interface a{
+	int a;
+}
+
+interface b
+{
+	
+}
+
+interface d
+{
+	
+}
+
+interface c extends a, b,d{
+	
+}

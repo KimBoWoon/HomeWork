@@ -1,0 +1,40 @@
+package scoreset;
+
+import java.util.ArrayList;
+
+public class ScoreSet
+{
+	public ScoreSet()
+	{
+		scores = new ArrayList<Integer>();
+	}
+	public void add(int score)
+	{
+		//Integer wrapper = new Integer(score);
+		scores.add(score);
+	}
+	public double averageWithoutLowest2() 
+	{
+		for(int i = 0; i < scores.size(); i++)
+			System.out.print(scores.get(i) + " ");
+		
+		scores.sort(null);
+		
+		for(int i = 0; i < scores.size(); i++)
+			System.out.print(scores.get(i) + " ");
+		
+		return 1;
+	}
+	private ArrayList<Integer> scores;
+}
+class Main
+{
+	public static void main(String[] args)
+	{
+		ScoreSet s = new ScoreSet();
+		
+		s.add(30);
+		s.add(20);
+		s.add(10);
+	}
+}

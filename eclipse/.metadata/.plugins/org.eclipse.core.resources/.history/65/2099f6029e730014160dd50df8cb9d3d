@@ -1,0 +1,53 @@
+package circles;
+
+import java.awt.Graphics;
+import java.awt.Graphics2D;
+import java.awt.geom.Ellipse2D;
+import java.util.ArrayList;
+
+import javax.swing.JComponent;
+
+public class CirclesComponent extends JComponent
+{
+	private static final int NCIRCLES = 5;
+	public CirclesComponent()
+	{
+		circles = new ArrayList<Ellipse2D.Double>();
+		// fill circles array list with circles
+		for (int i = 1; i <= NCIRCLES; i++)
+		{
+			// Set the values of x, y and r to three randomly generated values.
+			// Then, create a new Circle (Ellipse2D.Double) using these values
+			// Check that the new circle does not intersect a previous one.
+			// You will need to iterate through the array list and verify
+			// that the current circle does not intersect with a circle
+			/// in the array list.
+			// Add the circle to the array list if it does not intersect
+			// with another one.
+		}
+	}
+	/**
+Test if two circles intersect.
+(distance between centers is less than sum of radii)
+@param c1 the first circle
+@param c2 the second circle
+@return true if c1 and c2 intersect
+	 */
+	public boolean circlesIntersect(Ellipse2D.Double c1,
+			Ellipse2D.Double c2)
+	{
+		double radius1 = c1.getWidth() / 2;
+		double radius2 = c2.getWidth() / 2;
+		double dx = c1.getX() + radius1 - c2.getX() - radius2;
+		double dy = c1.getY() + radius1 - c2.getY() - radius2;
+		double distance = Math.sqrt(dx * dx + dy * dy);
+		return distance < radius1 + radius2;
+	}
+	public void paintComponent(Graphics g)
+	{
+		Graphics2D g2 = (Graphics2D) g;
+		for (int i = 0; i < circles.size(); i++) // iterate through every circle in the list
+			g2.draw(circles.get(i)); // draw the circle
+	}
+	private ArrayList<Ellipse2D.Double> circles;
+}

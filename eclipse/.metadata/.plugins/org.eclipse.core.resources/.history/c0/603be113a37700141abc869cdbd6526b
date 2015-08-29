@@ -1,0 +1,16 @@
+package rectangle;
+
+import java.awt.Rectangle;
+
+public class Compare 
+{
+	public int compare(Rectangle r1, Rectangle r2)
+	{
+		if (r1.getArea(r1) > r2.getArea(r2))
+			return 1;
+		else if (r1.getArea(r1) < r2.getArea(r2))
+			return -1;
+		else
+			return 0;
+	}
+}

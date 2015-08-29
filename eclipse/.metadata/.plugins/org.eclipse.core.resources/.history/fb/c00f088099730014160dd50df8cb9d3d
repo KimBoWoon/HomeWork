@@ -1,0 +1,87 @@
+package student;
+
+import java.util.Scanner;
+import java.util.ArrayList;
+
+public class Student 
+{
+	private String name;
+	private int score;
+	
+	public void SetStudent(String name, int score)
+	{
+		this.name = name;
+		this.score = score;
+	}
+	public String toString()
+	{
+		return "이름 : " + name + " " + "점수 : " + score;
+	}
+}
+
+class StudentScore
+{	
+	public static void main(String[] args)
+	{
+		Scanner in = new Scanner(System.in);
+		ArrayList<Student> al = new ArrayList<Student>();
+
+		for(int i = 0; i < 3; i++)
+		{
+			Student s = new Student();
+			
+			System.out.print("학색의 이름을 입력하세요. ");
+			String name = in.nextLine();
+			System.out.print("학색의 점수를 입력하세요. ");
+			int score = in.nextInt();
+			in.nextLine();
+			
+			s.SetStudent(name, score);
+			
+			al.add(s);
+		}
+		System.out.println(al);
+	}
+}
+
+//class BadStudentScores
+//{
+//	public BadStudentScores()
+//	{
+//		scores = new int[MAX_STUDENTS];
+//		names = new String[MAX_STUDENTS];
+//		numStudents = 0;
+//	}
+//	public void add(String name, int score)
+//	{
+//		if (numStudents >= MAX_STUDENTS)
+//			return; // not enough space to add new student score
+//		names[numStudents] = name;
+//		scores[numStudents] = score;
+//		numStudents++;
+//	}
+//	public String getHighest()
+//	{
+//		if (numStudents == 0)
+//			return null;
+//		int highest = 0;
+//		for (int i = 1; i < numStudents; i++)
+//			if (scores[i] > scores[highest])
+//				highest = i;
+//		return names[highest];
+//	}
+//	public String getLowest()
+//	{
+//		if (numStudents == 0)
+//			return null;
+//		int lowest = 0;
+//		for (int i = 1; i < numStudents; i++)
+//			if (scores[i] < scores[lowest])
+//				lowest = i;
+//		return names[lowest];
+//	}
+//	private final int MAX_STUDENTS = 100;
+//	private String[] names;
+//	private int[] scores;
+//	private int numStudents;
+//}
