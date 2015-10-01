@@ -4,12 +4,16 @@ import java.io.PrintWriter;
 /**
  * Created by 보운 on 2015-09-25.
  */
+
+// 암호화된 문장을 파일에 저장하는 클래스
 public class FileWrite {
-    public void fileWrite(byte[] ciphertext) {
+    public void fileWrite(byte[] cipherText) {
         try {
+            // byte[]타입의 저장 메서드가 존재하지 않아
+            // PrintWriter Class를 사용해 파일에 저장
             PrintWriter out = new PrintWriter(new FileWriter("output.txt"));
 
-            out.print(ciphertext);
+            out.print(cipherText);
             out.close();
         } catch (Exception e) {
             e.printStackTrace();
