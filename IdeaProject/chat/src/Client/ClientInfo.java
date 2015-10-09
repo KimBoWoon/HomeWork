@@ -3,7 +3,7 @@ package Client;
 import java.util.Vector;
 
 /**
- * Created by º¸¿î on 2015-10-06.
+ * Created by ë³´ìš´ on 2015-10-06.
  */
 public class ClientInfo {
     private String ip;

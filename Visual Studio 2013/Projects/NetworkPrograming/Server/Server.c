@@ -1,56 +1,118 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <winsock2.h>
-void ErrorHandling(char* message);
+#include <string.h>
+#include <windows.h>
+#include <process.h> 
 
-int main(int argc, char* argv[])
-{
-	WSADATA	wsaData;
+#define BUF_SIZE 100
+#define MAX_CLNT 256
+
+unsigned WINAPI HandleClnt(void * arg);
+void SendMsg(char * msg, int len);
+void ErrorHandling(char * msg);
+
+int clntCnt = 0;
+SOCKET clntSocks[MAX_CLNT];
+HANDLE hMutex;
+
+int main(int argc, char *argv[]) {
+	WSADATA wsaData;
 	SOCKET hServSock, hClntSock;
-	SOCKADDR_IN servAddr, clntAddr;
+	SOCKADDR_IN servAdr, clntAdr;
+	int clntAdrSz;
+	HANDLE  hThread;
+	FILE* file;
 
-	int szClntAddr;
-	char message[] = "Hello World!";
+	fopen_s(&file, "ClintInfo.txt", "w");
 
-	if (argc != 2)
-	{
+	if (file == NULL)
+		ErrorHandling("File Is Not Exist");
+
+	if (argc != 2) {
 		printf("Usage : %s <port>\n", argv[0]);
 		exit(1);
 	}
-
 	if (WSAStartup(MAKEWORD(2, 2), &wsaData) != 0)
 		ErrorHandling("WSAStartup() error!");
 
+	hMutex = CreateMutex(NULL, FALSE, NULL);
 	hServSock = socket(PF_INET, SOCK_STREAM, 0);
-	if (hServSock == INVALID_SOCKET)
-		ErrorHandling("socket() error");
 
-	memset(&servAddr, 0, sizeof(servAddr));
-	servAddr.sin_family = AF_INET;
-	servAddr.sin_addr.s_addr = htonl(INADDR_ANY);
-	servAddr.sin_port = htons(atoi(argv[1]));
+	memset(&servAdr, 0, sizeof(servAdr));
+	servAdr.sin_family = AF_INET;
+	servAdr.sin_addr.s_addr = htonl(INADDR_ANY);
+	servAdr.sin_port = htons(atoi(argv[1]));
 
-	if (bind(hServSock, (SOCKADDR*)&servAddr, sizeof(servAddr)) == SOCKET_ERROR)
+	if (bind(hServSock, (SOCKADDR*)&servAdr, sizeof(servAdr)) == SOCKET_ERROR)
 		ErrorHandling("bind() error");
-
 	if (listen(hServSock, 5) == SOCKET_ERROR)
 		ErrorHandling("listen() error");
 
-	szClntAddr = sizeof(clntAddr);
-	hClntSock = accept(hServSock, (SOCKADDR*)&clntAddr, &szClntAddr);
-	if (hClntSock == INVALID_SOCKET)
-		ErrorHandling("accept() error");
+	while (1) {
+		int i = 0;
+		char conn[] = "새로운 이용자가 접속했습니다\n";
+		char connIP[] = "IP Address : ";
+		char connPORT[] = "PORT Number : ";
+		char ip[16];
+		char port[6];
 
-	send(hClntSock, message, sizeof(message), 0);
-	closesocket(hClntSock);
+		clntAdrSz = sizeof(clntAdr);
+		hClntSock = accept(hServSock, (SOCKADDR*)&clntAdr, &clntAdrSz);
+
+		WaitForSingleObject(hMutex, INFINITE);
+		fprintf(file, "%s %d", inet_ntoa(clntAdr.sin_addr), clntAdr.sin_port);
+		clntSocks[clntCnt++] = hClntSock;
+
+		for (i = 0; i < clntCnt; i++) {
+			fscanf_s(file, "%s", ip, sizeof(ip));
+			printf("%s\n", ip);
+			SendMsg(conn, sizeof(conn));
+			SendMsg(connIP, sizeof(connIP));
+			SendMsg(ip, sizeof(ip));
+		}
+		ReleaseMutex(hMutex);
+
+		hThread = (HANDLE)_beginthreadex(NULL, 0, HandleClnt, (void*)&hClntSock, 0, NULL);
+		printf("Connected client IP: %s \n", inet_ntoa(clntAdr.sin_addr));
+		printf("Connected client Port : %d \n", htons(clntAdr.sin_port));
+	}
 	closesocket(hServSock);
+	fclose(file);
 	WSACleanup();
 	return 0;
 }
 
-void ErrorHandling(char* message)
-{
-	fputs(message, stderr);
+unsigned WINAPI HandleClnt(void * arg) {
+	SOCKET hClntSock = *((SOCKET*)arg);
+	int strLen = 0, i;
+	char msg[BUF_SIZE];
+
+	while ((strLen = recv(hClntSock, msg, sizeof(msg), 0)) != 0)
+		SendMsg(msg, strLen);
+
+	WaitForSingleObject(hMutex, INFINITE);
+	for (i = 0; i < clntCnt; i++) {  // remove disconnected client
+		if (hClntSock == clntSocks[i]) {
+			while (i++ < clntCnt - 1)
+				clntSocks[i] = clntSocks[i + 1];
+			break;
+		}
+	}
+	clntCnt--;
+	ReleaseMutex(hMutex);
+	closesocket(hClntSock);
+	return 0;
+}
+void SendMsg(char * msg, int len) {  // send to all
+	int i;
+	WaitForSingleObject(hMutex, INFINITE);
+	for (i = 0; i < clntCnt; i++)
+		send(clntSocks[i], msg, len, 0);
+
+	ReleaseMutex(hMutex);
+}
+void ErrorHandling(char * msg) {
+	fputs(msg, stderr);
 	fputc('\n', stderr);
 	exit(1);
 }

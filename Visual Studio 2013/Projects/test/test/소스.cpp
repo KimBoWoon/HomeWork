@@ -1,5 +1,5 @@
+
 #include <iostream>
-using namespace std;
 
 class Rec{
 private:
@@ -20,5 +20,5 @@ int main(void){
 	int h;
 	a.sethei(3);
 	h = a.getheight();
-	cout << h;
+	std::cout << h;
 }

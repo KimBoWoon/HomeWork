@@ -56,7 +56,6 @@ void knighttour::printboard()
 		for(int c=0;c<sizecol;c++)
 			cout<<board[r][c]<<" ";
 		cout<<endl;
-
 	}
 }
 

@@ -1,53 +1,84 @@
-#define _WINSOCK_DEPRECATED_NO_WARNINGS
-
 #include <stdio.h>
 #include <stdlib.h>
-#include <winsock2.h>
-void ErrorHandling(char* message);
+#include <string.h>
+#include <windows.h>
+#include <process.h> 
 
-int main(int argc, char* argv[])
-{
+#define BUF_SIZE 100
+#define NAME_SIZE 20
+
+unsigned WINAPI SendMsg(void * arg);
+unsigned WINAPI RecvMsg(void * arg);
+void ErrorHandling(char * msg);
+
+char name[NAME_SIZE] = "[DEFAULT]";
+char msg[BUF_SIZE];
+
+int main(int argc, char *argv[]) {
 	WSADATA wsaData;
-	SOCKET hSocket;
-	SOCKADDR_IN servAddr;
+	SOCKET hSock;
+	SOCKADDR_IN servAdr;
+	HANDLE hSndThread, hRcvThread;
 
-	char message[30];
-	int strLen;
-
-	if (argc != 3)
-	{
-		printf("Usage : %s <IP> <port>\n", argv[0]);
+	if (argc != 4) {
+		printf("Usage : %s <IP> <port> <name>\n", argv[0]);
 		exit(1);
 	}
-
 	if (WSAStartup(MAKEWORD(2, 2), &wsaData) != 0)
 		ErrorHandling("WSAStartup() error!");
 
-	hSocket = socket(PF_INET, SOCK_STREAM, 0);
-	if (hSocket == INVALID_SOCKET)
-		ErrorHandling("socket() error");
+	sprintf_s(name, sizeof(name), "[%s]", argv[3]);
+	hSock = socket(PF_INET, SOCK_STREAM, 0);
 
-	memset(&servAddr, 0, sizeof(servAddr));
-	servAddr.sin_family = AF_INET;
-	servAddr.sin_addr.s_addr = inet_addr(argv[1]);
-	servAddr.sin_port = htons(atoi(argv[2]));
+	memset(&servAdr, 0, sizeof(servAdr));
+	servAdr.sin_family = AF_INET;
+	servAdr.sin_addr.s_addr = inet_addr(argv[1]);
+	servAdr.sin_port = htons(atoi(argv[2]));
 
-	if (connect(hSocket, (SOCKADDR*)&servAddr, sizeof(servAddr)) == SOCKET_ERROR)
-		ErrorHandling("connect() error!");
+	if (connect(hSock, (SOCKADDR*)&servAdr, sizeof(servAdr)) == SOCKET_ERROR)
+		ErrorHandling("connect() error");
 
-	strLen = recv(hSocket, message, sizeof(message) - 1, 0);
-	if (strLen == -1)
-		ErrorHandling("read() error!");
-	printf("Message from server: %s \n", message);
+	hSndThread = (HANDLE)_beginthreadex(NULL, 0, SendMsg, (void*)&hSock, 0, NULL);
+	hRcvThread = (HANDLE)_beginthreadex(NULL, 0, RecvMsg, (void*)&hSock, 0, NULL);
 
-	closesocket(hSocket);
+	WaitForSingleObject(hSndThread, INFINITE);
+	WaitForSingleObject(hRcvThread, INFINITE);
+	closesocket(hSock);
 	WSACleanup();
 	return 0;
 }
 
-void ErrorHandling(char* message)
-{
-	fputs(message, stderr);
+unsigned WINAPI SendMsg(void * arg) {   // send thread main
+	SOCKET hSock = *((SOCKET*)arg);
+	char nameMsg[NAME_SIZE + BUF_SIZE];
+	while (1) {
+		fgets(msg, BUF_SIZE, stdin);
+		if (!strcmp(msg, "q\n") || !strcmp(msg, "Q\n")) {
+			closesocket(hSock);
+			exit(0);
+		}
+		sprintf_s(nameMsg, sizeof(nameMsg), "%s %s", name, msg);
+		send(hSock, nameMsg, strlen(nameMsg), 0);
+	}
+	return 0;
+}
+
+unsigned WINAPI RecvMsg(void * arg) {   // read thread main
+	int hSock = *((SOCKET*)arg);
+	char nameMsg[NAME_SIZE + BUF_SIZE];
+	int strLen;
+	while (1) {
+		strLen = recv(hSock, nameMsg, NAME_SIZE + BUF_SIZE - 1, 0);
+		if (strLen == -1)
+			return -1;
+		nameMsg[strLen] = 0;
+		fputs(nameMsg, stdout);
+	}
+	return 0;
+}
+
+void ErrorHandling(char *msg) {
+	fputs(msg, stderr);
 	fputc('\n', stderr);
 	exit(1);
 }
