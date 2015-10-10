@@ -4,14 +4,34 @@ package Client;
  * Created by 보운 on 2015-10-06.
  */
 public class ClientInfo {
+    private String name;
     private String ip;
     private int port;
-    private int udpPort;
+    private String udpPort;
 
-    public ClientInfo(String ip, int port, int udpPort) {
+    public ClientInfo(String name, String ip, int port) {
+        this.name = name;
+        this.ip = ip;
+        this.port = port;
+    }
+    public ClientInfo(String ip, int port, String udpPort) {
         this.ip = ip;
         this.port = port;
         this.udpPort = udpPort;
+    }
+    public ClientInfo(String name, String ip, int port, String udpPort) {
+        this.name = name;
+        this.ip = ip;
+        this.port = port;
+        this.udpPort = udpPort;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getIp() {
@@ -30,11 +50,11 @@ public class ClientInfo {
         this.port = port;
     }
 
-    public int getUdpPort() {
+    public String getUdpPort() {
         return udpPort;
     }
 
-    public void setUdpPort(int udpPort) {
+    public void setUdpPort(String udpPort) {
         this.udpPort = udpPort;
     }
 }

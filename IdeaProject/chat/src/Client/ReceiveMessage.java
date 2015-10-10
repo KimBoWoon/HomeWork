@@ -6,6 +6,9 @@ import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.Socket;
 
+/**
+ * Created by 보운 on 2015-10-06.
+ */
 public class ReceiveMessage implements Runnable {
     private Socket s;
     private BufferedReader br;
@@ -13,10 +16,9 @@ public class ReceiveMessage implements Runnable {
     private DatagramSocket ds;
     private DatagramPacket dp;
 
-    public ReceiveMessage(Socket s, DatagramSocket ds) {
+    public ReceiveMessage(Socket s) {
         try {
             this.s = s;
-            this.ds = ds;
             br = new BufferedReader(new InputStreamReader(s.getInputStream()));
             Thread ctr = new Thread(this);
             ctr.start();
