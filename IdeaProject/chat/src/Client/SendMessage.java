@@ -1,5 +1,7 @@
 package Client;
 
+import Server.ChatServerMain;
+
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.net.DatagramPacket;
@@ -37,6 +39,9 @@ public class SendMessage implements Runnable {
             String str = in.nextLine();
             if (str.charAt(0) == '/' && str.charAt(1) == 'w') {
                 pw.println("asdfewwwerqr");
+                for (int i = 0; i < ChatServerMain.clientInfos.size(); i++) {
+                    System.out.println(ChatServerMain.clientInfos.get(i).getUdpPort());
+                }
             } else {
                 pw.println(str);
                 pw.flush();

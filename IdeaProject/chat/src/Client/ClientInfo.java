@@ -1,7 +1,5 @@
 package Client;
 
-import java.util.Vector;
-
 /**
  * Created by 보운 on 2015-10-06.
  */

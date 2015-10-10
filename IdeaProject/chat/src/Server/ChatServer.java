@@ -1,5 +1,7 @@
 package Server;
 
+import Client.ClientInfo;
+
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.Vector;

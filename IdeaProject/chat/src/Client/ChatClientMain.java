@@ -1,5 +1,8 @@
 package Client;
 
+import Server.ChatServer;
+import Server.ChatServerMain;
+
 import java.io.IOException;
 import java.net.DatagramSocket;
 import java.net.Socket;
@@ -20,6 +23,8 @@ public class ChatClientMain {
 
             s = new Socket("127.0.0.1", 9190);
             ds = new DatagramSocket(udpPort);
+
+            ChatServerMain.clientInfos.add(new ClientInfo("127.0.0.1", 9190, udpPort));
 
             ReceiveMessage bp = new ReceiveMessage(s, ds);
             SendMessage send = new SendMessage(s, ds);
