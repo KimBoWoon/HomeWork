@@ -1,6 +1,7 @@
 package Server;
 
 import Client.ClientInfo;
+import Client.ClientVector;
 
 import java.net.ServerSocket;
 import java.net.Socket;
@@ -13,11 +14,9 @@ public class ChatServer {
     private ServerSocket ss;
     private Socket s;
     private Vector<Thread> v;
-    private Vector<ClientInfo> clientInfos;
 
-    public ChatServer() {
+    public ChatServer(ClientVector cv) {
         v = new Vector<Thread>();
-        clientInfos = new Vector<ClientInfo>();
         System.out.println("서버가 시작되었습니다.");
 
         try {
@@ -25,7 +24,7 @@ public class ChatServer {
             ss.setReuseAddress(true);
             while (true) {
                 s = ss.accept();
-                ServerSocketThread svrth = new ServerSocketThread(this, s);
+                ServerSocketThread svrth = new ServerSocketThread(this, s, cv);
                 addClient(svrth);
                 svrth.start();
             }
@@ -34,24 +33,21 @@ public class ChatServer {
         }
     }
 
-    public void printClient() {
-        for (int i = 0; i < clientInfos.size(); i++) {
-            System.out.println("NAME : " + clientInfos.get(i).getName());
-            System.out.println("IP : " + clientInfos.get(i).getIp());
-            System.out.println("PORT : " + clientInfos.get(i).getPort());
-            System.out.println("UDPPORT : " + clientInfos.get(i).getUdpPort());
+    public static void printClient() {
+        System.out.println("Print Client");
+        System.out.println(ClientVector.getClientVector().size());
+        for (int i = 0; i < ClientVector.getClientVector().size(); i++) {
+            System.out.println("NAME : " + ClientVector.getClientVector().get(i).getName());
+            System.out.println("IP : " + ClientVector.getClientVector().get(i).getIp());
+            System.out.println("PORT : " + ClientVector.getClientVector().get(i).getPort());
+            System.out.println("UDPPORT : " + ClientVector.getClientVector().get(i).getUdpPort());
         }
     }
 
     public synchronized void addClient(Socket s, String name, String udpPort) {
         ClientInfo c = new ClientInfo(name, s.getInetAddress().getHostAddress(), s.getPort(), udpPort);
-        clientInfos.add(c);
-        for (int i = 0; i < clientInfos.size(); i++) {
-            System.out.println("NAME : " + clientInfos.get(i).getName());
-            System.out.println("IP : " + clientInfos.get(i).getIp());
-            System.out.println("PORT : " + clientInfos.get(i).getPort());
-            System.out.println("UDPPORT : " + clientInfos.get(i).getUdpPort());
-        }
+        ClientVector.getClientVector().add(c);
+        printClient();
     }
 
     public synchronized void addClient(Thread tr) {

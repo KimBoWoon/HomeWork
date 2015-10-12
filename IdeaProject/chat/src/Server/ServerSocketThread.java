@@ -1,5 +1,7 @@
 package Server;
 
+import Client.ClientVector;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
@@ -17,15 +19,33 @@ public class ServerSocketThread extends Thread {
     private String name;
     private String udpPort;
     private Scanner in = new Scanner(System.in);
+    private ClientVector cv;
+    private int user;
 
-    public ServerSocketThread(ChatServer cs, Socket s) {
+    public ServerSocketThread(ChatServer cs, Socket s, ClientVector cv) {
         this.s = s;
         this.cs = cs;
+        this.cv = cv;
         System.out.println(s.getInetAddress() + " 님이 입장하였습니다.");
     }
 
     public void sendMessage(String str) {
         pw.println(str);
+        pw.flush();
+    }
+    public void printClient() {
+        for (int i = 0;i < cv.vectorSize();i++)
+            sendMessage((i + 1) + " " +  cv.getClientInfos().get(i).getName());
+    }
+
+    public void sendUDPPORT() {
+        try {
+            sendMessage("귓속말 상대방을 입력하세요 : ");
+            user = Integer.valueOf(br.readLine());
+            sendMessage("/w" + cv.getClientInfos().get(user - 1).getUdpPort());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     public void run() {
@@ -40,7 +60,14 @@ public class ServerSocketThread extends Thread {
             cs.addClient(s, name, udpPort);
             while (true) {
                 String strin = br.readLine();
-                cs.broadCasting("[" + name + "] " + strin);
+                if (strin.charAt(0) == '/' && strin.charAt(1) == 'w') {
+                    printClient();
+                    sendUDPPORT();
+                } else if (strin.charAt(0) == '/' && strin.charAt(1) == '/') {
+
+                } else {
+                    cs.broadCasting("[" + name + "] " + strin);
+                }
             }
         } catch (Exception e) {
             cs.removeClient(this);

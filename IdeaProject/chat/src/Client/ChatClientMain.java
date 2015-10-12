@@ -6,11 +6,9 @@ package Client;
 
 import java.io.IOException;
 import java.net.Socket;
-import java.util.Scanner;
 
 public class ChatClientMain {
     private static Socket s;
-    private static Scanner in;
 
     public static void main(String[] args) {
         try {
