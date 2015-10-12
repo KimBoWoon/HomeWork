@@ -31,6 +31,26 @@ public class SendMessage implements Runnable {
         }
     }
 
+    public synchronized void whisper() {
+        try {
+            while (true) {
+                if (ReceiveMessage.udpPort != null) {
+                    System.out.println("귓속말 메시지 입력 : ");
+                    //String wstr = br.readLine();
+                    String wstr = in.nextLine();
+                    wstr = "//" + wstr;
+                    DatagramSocket ds = new DatagramSocket();
+                    InetAddress ia = InetAddress.getByName("127.0.0.1");
+                    DatagramPacket dp = new DatagramPacket(wstr.getBytes(), wstr.getBytes().length, ia, ReceiveMessage.udpPort);
+                    System.out.println("메시지 전송");
+                    ds.send(dp);
+                }
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
     @Override
     public void run() {
         while (true) {
@@ -38,6 +58,7 @@ public class SendMessage implements Runnable {
             String str = in.nextLine();
             if (str.charAt(0) == '/' && str.charAt(1) == 'w') {
                 pw.println("/w");
+                whisper();
             } else {
                 pw.println(str);
             }

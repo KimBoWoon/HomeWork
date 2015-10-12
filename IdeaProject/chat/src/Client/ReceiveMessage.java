@@ -15,7 +15,8 @@ public class ReceiveMessage implements Runnable {
     private Socket s;
     private BufferedReader br;
     private String str1;
-    private int udpPort;
+    //private Scanner in = new Scanner(System.in);
+    public static Integer udpPort;
 
     public ReceiveMessage(Socket s) {
         try {
@@ -28,9 +29,25 @@ public class ReceiveMessage implements Runnable {
         }
     }
 
-    public synchronized void createWhisperThread(int udpPort) {
-        ReceiveWhisper rw = new ReceiveWhisper(s, udpPort);
-        rw.start();
+    public synchronized void whisper() {
+        try {
+            udpPort = Integer.valueOf(str1.substring(2, str1.length()));
+            System.out.println(udpPort);
+            DatagramSocket ds = new DatagramSocket(udpPort);
+            DatagramPacket dp = new DatagramPacket(new byte[1024], 1024);
+
+            while (true) {
+                ds.receive(dp);
+                if (dp.getLength() > 0) {
+
+                    System.out.println("메시지 받음");
+                    String str1 = new String(dp.getData()).trim();
+                    System.out.println(str1);
+                }
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     @Override
@@ -39,8 +56,7 @@ public class ReceiveMessage implements Runnable {
             br = new BufferedReader(new InputStreamReader(s.getInputStream()));
             while ((str1 = br.readLine()) != null) {
                 if (str1.charAt(0) == '/' && str1.charAt(1) == 'w') {
-                    udpPort = Integer.valueOf(str1.substring(2, str1.length()));
-                    createWhisperThread(udpPort);
+                    whisper();
                 } else {
                     System.out.println(str1);
                 }
