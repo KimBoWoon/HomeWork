@@ -27,13 +27,4 @@ public class ClientVector {
     public Vector<ClientInfo> getClientInfos() {
         return clientInfos;
     }
-
-    public void printClient() {
-        for (int i = 0; i < clientInfos.size(); i++) {
-            System.out.println("NAME : " + clientInfos.get(i).getName());
-            System.out.println("IP : " + clientInfos.get(i).getIp());
-            System.out.println("PORT : " + clientInfos.get(i).getPort());
-            System.out.println("UDPPORT : " + clientInfos.get(i).getUdpPort());
-        }
-    }
 }

@@ -47,18 +47,19 @@ public class ServerSocketThread extends Thread {
         try {
             sendMessage("귓속말 상대방을 입력하세요 : ");
             user = Integer.valueOf(br.readLine());
-            sendMessage("/w" + cv.getClientInfos().get(user - 1).getUdpPort());
             DatagramSocket ds = new DatagramSocket();
             InetAddress ia = InetAddress.getByName(cv.getClientInfos().get(user - 1).getIp());
             while (true) {
                 sendMessage("귓속말 메시지 입력 : ");
                 String wstr = br.readLine();
                 if ((wstr.charAt(0) == 'q' || wstr.charAt(0) == 'Q') && wstr.length() == 1) {
+                    sendMessage("귓속말 종료");
                     DatagramPacket dp = new DatagramPacket("q".getBytes(), "q".getBytes().length, ia,
                             Integer.valueOf(cv.getClientInfos().get(user - 1).getUdpPort()));
                     ds.send(dp);
                     break;
                 }
+                wstr = "Whisper : [" + name + "] " + wstr;
                 DatagramPacket dp = new DatagramPacket(wstr.getBytes(), wstr.getBytes().length, ia,
                         Integer.valueOf(cv.getClientInfos().get(user - 1).getUdpPort()));
                 ds.send(dp);

@@ -17,7 +17,6 @@ public class ReceiveWhisper extends Thread {
     public ReceiveWhisper(Socket s, int udpPort) {
         try {
             ds = new DatagramSocket(udpPort);
-            dp = new DatagramPacket(new byte[1024], 1024);
             br = new BufferedReader(new InputStreamReader(s.getInputStream()));
         } catch (Exception e) {
             e.printStackTrace();
@@ -30,12 +29,13 @@ public class ReceiveWhisper extends Thread {
 
         try {
             while (true) {
-                String temp;
-                if ((temp = br.readLine()) != null) {
-                    if (temp.charAt(0) == 'q' || temp.charAt(0) == 'Q')
-                        break;
-                    ds.receive(dp);
+                dp = new DatagramPacket(new byte[1024], 1024);
+                ds.receive(dp);
+                if (dp.getLength() > 0) {
                     String str1 = new String(dp.getData());
+                    if (str1.charAt(0) == 'q' || str1.charAt(0) == 'Q') {
+                        break;
+                    }
                     System.out.println(str1);
                 }
             }
