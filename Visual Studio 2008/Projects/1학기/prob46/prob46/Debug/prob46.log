@@ -1,0 +1,9 @@
+﻿  prob46.c
+d:\github\homework\visual studio 2008\projects\1학기\prob46\prob46\prob46.c(11): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 'fopen' 선언을 참조하십시오.
+d:\github\homework\visual studio 2008\projects\1학기\prob46\prob46\prob46.c(15): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : 'fscanf' 선언을 참조하십시오.
+d:\github\homework\visual studio 2008\projects\1학기\prob46\prob46\prob46.c(21): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : 'fscanf' 선언을 참조하십시오.
+prob46.obj : warning LNK4075: '/EDITANDCONTINUE'이(가) '/SAFESEH' 사양으로 인해 무시됩니다.
+  prob46.vcxproj -> D:\GitHub\HomeWork\Visual Studio 2008\Projects\1학기\prob46\Debug\prob46.exe

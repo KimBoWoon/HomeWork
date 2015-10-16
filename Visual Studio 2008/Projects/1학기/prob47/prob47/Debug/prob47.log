@@ -1,0 +1,8 @@
+﻿  prob47.c
+d:\github\homework\visual studio 2008\projects\1학기\prob47\prob47\prob47.c(13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 'fopen' 선언을 참조하십시오.
+d:\github\homework\visual studio 2008\projects\1학기\prob47\prob47\prob47.c(17): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : 'fscanf' 선언을 참조하십시오.
+d:\github\homework\visual studio 2008\projects\1학기\prob47\prob47\prob47.c(24): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : 'fscanf' 선언을 참조하십시오.
+  prob47.vcxproj -> D:\GitHub\HomeWork\Visual Studio 2008\Projects\1학기\prob47\Debug\prob47.exe
