@@ -14,9 +14,11 @@ public class ChatServer {
     private ServerSocket ss;
     private Socket s;
     private Vector<Thread> v;
+    private ClientVector cv;
 
     public ChatServer(ClientVector cv) {
         v = new Vector<Thread>();
+        this.cv = cv;
         System.out.println("서버가 시작되었습니다.");
 
         try {
@@ -33,20 +35,19 @@ public class ChatServer {
         }
     }
 
-    public static void printClient() {
-        System.out.println("Print Client");
-        System.out.println(ClientVector.getClientVector().size());
-        for (int i = 0; i < ClientVector.getClientVector().size(); i++) {
-            System.out.println("NAME : " + ClientVector.getClientVector().get(i).getName());
-            System.out.println("IP : " + ClientVector.getClientVector().get(i).getIp());
-            System.out.println("PORT : " + ClientVector.getClientVector().get(i).getPort());
-            System.out.println("UDPPORT : " + ClientVector.getClientVector().get(i).getUdpPort());
+    public void printClient() {
+        System.out.println("<--현재 접속중인 사용자 목록-->");
+        for (int i = 0; i < cv.vectorSize(); i++) {
+            System.out.println("NAME : " + cv.getClientInfos().get(i).getName());
+            System.out.println("IP : " + cv.getClientInfos().get(i).getIp());
+            System.out.println("PORT : " + cv.getClientInfos().get(i).getPort());
+            System.out.println("UDPPORT : " + cv.getClientInfos().get(i).getUdpPort());
         }
     }
 
     public synchronized void addClient(Socket s, String name, String udpPort) {
         ClientInfo c = new ClientInfo(name, s.getInetAddress().getHostAddress(), s.getPort(), udpPort);
-        ClientVector.getClientVector().add(c);
+        cv.getClientInfos().add(c);
         printClient();
     }
 

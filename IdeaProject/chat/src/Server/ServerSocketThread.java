@@ -1,7 +1,6 @@
 package Server;
 
 import Client.ClientVector;
-import Client.ReceiveMessage;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -10,7 +9,6 @@ import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.InetAddress;
 import java.net.Socket;
-import java.util.Scanner;
 
 /**
  * Created by 보운 on 2015-10-06.
@@ -22,7 +20,6 @@ public class ServerSocketThread extends Thread {
     private BufferedReader br;
     private String name;
     private String udpPort;
-    private Scanner in = new Scanner(System.in);
     private ClientVector cv;
     private int user;
 
@@ -43,7 +40,7 @@ public class ServerSocketThread extends Thread {
             sendMessage((i + 1) + " " + cv.getClientInfos().get(i).getName());
     }
 
-    public synchronized void sendUDPPORT() {
+    public synchronized void sendWhisper() {
         try {
             sendMessage("귓속말 상대방을 입력하세요 : ");
             user = Integer.valueOf(br.readLine());
@@ -84,7 +81,7 @@ public class ServerSocketThread extends Thread {
                 String strin = br.readLine();
                 if (strin.charAt(0) == '/' && strin.charAt(1) == 'w') {
                     printClient();
-                    sendUDPPORT();
+                    sendWhisper();
                 } else {
                     cs.broadCasting("[" + name + "] " + strin);
                 }
