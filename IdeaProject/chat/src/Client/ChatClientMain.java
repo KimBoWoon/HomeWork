@@ -12,7 +12,7 @@ public class ChatClientMain {
 
     public static void main(String[] args) {
         try {
-            s = new Socket("127.0.0.1", 9190);
+            s = new Socket("192.168.0.15", 9190);
 
             ReceiveMessage bp = new ReceiveMessage(s);
             SendMessage send = new SendMessage(s);
