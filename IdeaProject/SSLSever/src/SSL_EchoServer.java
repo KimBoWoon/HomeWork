@@ -1,5 +1,5 @@
 /**
- * Created by bw on 15. 10. 26.
+ * Created by 보운 on 2015-11-01.
  */
 
 import javax.net.ssl.SSLServerSocket;
@@ -10,7 +10,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 
 public class SSL_EchoServer {
-    private static final int PORT_NUM = 6789;
+    private static final int PORT_NUM = 9190;
 
     public static void main(String[] arstring) {
         try {
@@ -35,3 +35,4 @@ public class SSL_EchoServer {
         }
     }
 }
+

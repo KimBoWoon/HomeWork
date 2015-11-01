@@ -1,5 +1,5 @@
 /**
- * Created by bw on 15. 10. 26.
+ * Created by 보운 on 2015-11-01.
  */
 
 import javax.net.ssl.SSLSocket;
@@ -7,12 +7,12 @@ import javax.net.ssl.SSLSocketFactory;
 import java.io.*;
 
 public class SSL_EchoClient {
-    private static final int PORT_NUM = 6789;
+    private static final int PORT_NUM = 9190;
 
     public static void main(String[] arstring) {
         try {
             SSLSocketFactory sslsocketfactory = (SSLSocketFactory) SSLSocketFactory.getDefault();
-            SSLSocket sslsocket = (SSLSocket) sslsocketfactory.createSocket("210.123.39.217", PORT_NUM);
+            SSLSocket sslsocket = (SSLSocket) sslsocketfactory.createSocket("127.0.0.1", PORT_NUM);
             InputStream inputstream = System.in;
             InputStreamReader inputstreamreader = new InputStreamReader(inputstream);
             BufferedReader bufferedreader = new BufferedReader(inputstreamreader);
