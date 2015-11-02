@@ -1,9 +1,0 @@
-﻿keytool -genkey -keystore hw2key -keyalg RSA
-
-Keytool -export -keystore hw2key -file publichw2key
-
-keytool -import -keystore hw2key -file publichw2key
-
-java -Djavax.net.ssl.keyStore=hw2key -Djavax.net.ssl.keyStorePassword=123456 SSL_EchoServer
-
-java -Djavax.net.ssl.trustStore=hw2key SSL_EchoClient

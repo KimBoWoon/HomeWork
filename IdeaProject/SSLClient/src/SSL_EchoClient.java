@@ -1,13 +1,9 @@
-/**
- * Created by 보운 on 2015-11-01.
- */
-
 import javax.net.ssl.SSLSocket;
 import javax.net.ssl.SSLSocketFactory;
 import java.io.*;
 
 public class SSL_EchoClient {
-    private static final int PORT_NUM = 9190;
+    private static final int PORT_NUM = 443;
 
     public static void main(String[] arstring) {
         try {
@@ -32,3 +28,4 @@ public class SSL_EchoClient {
         }
     }
 }
+
