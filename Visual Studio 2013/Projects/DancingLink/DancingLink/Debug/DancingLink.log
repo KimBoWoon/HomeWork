@@ -1,0 +1,25 @@
+﻿  sudoku_solver.c
+c:\users\보운\desktop\solver_1.20\sudoku_solver.c(177): warning C4013: 'getopt'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+c:\users\보운\desktop\solver_1.20\sudoku_solver.c(225): error C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(195) : 'strncpy' 선언을 참조하십시오.
+  sudoku_engine.c
+c:\users\보운\desktop\solver_1.20\sudoku_engine.c(205): error C2054: 'inline' 다음에 '('가 필요합니다.
+c:\users\보운\desktop\solver_1.20\sudoku_engine.c(205): error C2085: 'is_given' : 정식 매개 변수 목록에 없습니다.
+c:\users\보운\desktop\solver_1.20\sudoku_engine.c(205): error C2143: 구문 오류 : ';'이(가) '{' 앞에 없습니다.
+c:\users\보운\desktop\solver_1.20\sudoku_engine.c(547): error C2054: 'inline' 다음에 '('가 필요합니다.
+c:\users\보운\desktop\solver_1.20\sudoku_engine.c(548): error C2085: 'bitcount' : 정식 매개 변수 목록에 없습니다.
+c:\users\보운\desktop\solver_1.20\sudoku_engine.c(548): error C2143: 구문 오류 : ';'이(가) '{' 앞에 없습니다.
+c:\users\보운\desktop\solver_1.20\sudoku_engine.c(579): warning C4013: 'bitcount'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+c:\users\보운\desktop\solver_1.20\sudoku_engine.c(597): warning C4244: '=' : 'const short'에서 'char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\보운\desktop\solver_1.20\sudoku_engine.c(925): warning C4013: 'is_given'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+c:\users\보운\desktop\solver_1.20\sudoku_engine.c(983): warning C4244: '=' : 'const short'에서 'char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\보운\desktop\solver_1.20\sudoku_engine.c(1807): error C2054: 'inline' 다음에 '('가 필요합니다.
+c:\users\보운\desktop\solver_1.20\sudoku_engine.c(1808): error C2085: 'add_grid' : 정식 매개 변수 목록에 없습니다.
+c:\users\보운\desktop\solver_1.20\sudoku_engine.c(1808): error C2143: 구문 오류 : ';'이(가) '{' 앞에 없습니다.
+c:\users\보운\desktop\solver_1.20\sudoku_engine.c(1823): warning C4013: 'add_grid'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+c:\users\보운\desktop\solver_1.20\sudoku_engine.c(1833): error C2054: 'inline' 다음에 '('가 필요합니다.
+c:\users\보운\desktop\solver_1.20\sudoku_engine.c(1834): error C2085: 'solve_grid' : 정식 매개 변수 목록에 없습니다.
+c:\users\보운\desktop\solver_1.20\sudoku_engine.c(1834): error C2143: 구문 오류 : ';'이(가) '{' 앞에 없습니다.
+c:\users\보운\desktop\solver_1.20\sudoku_engine.c(1912): warning C4013: 'solve_grid'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+c:\users\보운\desktop\solver_1.20\sudoku_engine.c(2025): warning C4244: '=' : 'const short'에서 'char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...

@@ -2,28 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abe2a998-1bf8-4c7e-97f7-847836f9c6b6" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\GitHub\HomeWork\IdeaProject\컴파일.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\GitHub\HomeWork\Visual Studio 2013\Projects\Practice\Debug\Practice.exe" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitHub\HomeWork\Visual Studio 2013\Projects\Practice\Practice\Debug\Practice.obj" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitHub\HomeWork\Visual Studio 2013\Projects\Practice\Practice\n log n output.dat" afterPath="" />
+      <change type="DELETED" beforePath="D:\GitHub\HomeWork\Visual Studio 2013\Projects\Practice\Practice\n^2 output.dat" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Practice/Debug/Practice.ilk" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Practice/Debug/Practice.ilk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Practice/Debug/Practice.pdb" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Practice/Debug/Practice.pdb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Practice/Practice.sdf" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Practice/Practice.sdf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Practice/Practice.v12.suo" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Practice/Practice.v12.suo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SSLClient/src/SSL_EchoClient.class" afterPath="$PROJECT_DIR$/../SSLClient/src/SSL_EchoClient.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SSL_EchoServer.class" afterPath="$PROJECT_DIR$/src/SSL_EchoServer.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Practice/Practice/Debug/temp.obj" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Practice/Practice/Debug/temp.obj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Practice/Practice/Debug/vc120.idb" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Practice/Practice/Debug/vc120.idb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Practice/Practice/Debug/vc120.pdb" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Practice/Practice/Debug/vc120.pdb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Practice/Practice/Debug/Practice.tlog/CL.read.1.tlog" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Practice/Practice/Debug/Practice.tlog/CL.read.1.tlog" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Practice/Practice/Debug/Practice.tlog/CL.write.1.tlog" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Practice/Practice/Debug/Practice.tlog/CL.write.1.tlog" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Practice/Practice/Debug/Practice.log" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Practice/Practice/Debug/Practice.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SSLClient/src/SSL_EchoClient.java" afterPath="$PROJECT_DIR$/../SSLClient/src/SSL_EchoClient.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SSL_EchoServer.java" afterPath="$PROJECT_DIR$/src/SSL_EchoServer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Practice/Practice/Practice.vcxproj.filters" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Practice/Practice/Practice.vcxproj.filters" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Practice/Practice/Practice.vcxproj" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Practice/Practice/Practice.vcxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Practice/Practice/Debug/Practice.tlog/cl.command.1.tlog" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Practice/Practice/Debug/Practice.tlog/cl.command.1.tlog" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Practice/Practice/input.txt" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Practice/Practice/input.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Practice/Practice/Debug/Practice.tlog/link.command.1.tlog" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Practice/Practice/Debug/Practice.tlog/link.command.1.tlog" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Practice/Practice/Debug/Practice.tlog/link.read.1.tlog" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Practice/Practice/Debug/Practice.tlog/link.read.1.tlog" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Practice/Practice/Debug/Practice.tlog/link.write.1.tlog" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Practice/Practice/Debug/Practice.tlog/link.write.1.tlog" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Practice/Practice/temp.cpp" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Practice/Practice/temp.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SSLClient/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../SSLClient/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SSLClient/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../SSLClient/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SSLSever.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,11 +47,9 @@
       <file leaf-file-name="SSL_EchoServer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/SSL_EchoServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.72421527">
-              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.042600896">
+              <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -153,9 +149,9 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -459,15 +455,16 @@
       <workItem from="1446358901601" duration="619000" />
       <workItem from="1446361239384" duration="26000" />
       <workItem from="1446464231944" duration="720000" />
+      <workItem from="1447227863828" duration="91000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1462000" />
+    <option name="totallyTimeSpent" value="1553000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1932" height="1050" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -519,9 +516,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -529,9 +524,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -539,19 +532,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SSL_EchoServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.72421527">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SSL_EchoServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.042600896">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>

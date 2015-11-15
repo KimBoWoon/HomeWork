@@ -1,0 +1,3 @@
+﻿  LCS.c
+d:\github\homework\visual studio 2013\projects\algorithm\dynamicprogramming\lcs.c(60): warning C4090: '함수' : 'const' 한정자가 서로 다릅니다.
+  DynamicProgramming.vcxproj -> D:\GitHub\HomeWork\Visual Studio 2013\Projects\Algorithm\Debug\DynamicProgramming.exe
