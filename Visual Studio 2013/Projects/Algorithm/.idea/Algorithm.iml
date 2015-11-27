@@ -3,15 +3,7 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GreedyApproach/DisjointSet.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GreedyApproach/DisjointSet.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GreedyApproach/Graph.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GreedyApproach/Graph.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GreedyApproach/MST.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GreedyApproach/MST.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GreedyApproach/MSTMain.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GreedyApproach/PriorityQueue.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GreedyApproach/PriorityQueue.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DynamicProgramming/CoinExchange2.c" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
