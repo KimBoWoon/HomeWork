@@ -11,12 +11,16 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Huffman.h" />
+    <ClInclude Include="DisjointSet.h" />
+    <ClInclude Include="Graph.h" />
+    <ClInclude Include="MST.h" />
     <ClInclude Include="PriorityQueue.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Huffman.c" />
-    <ClCompile Include="HuffmanMain.c" />
+    <ClCompile Include="DisjointSet.c" />
+    <ClCompile Include="Graph.c" />
+    <ClCompile Include="MST.c" />
+    <ClCompile Include="MSTMain.c" />
     <ClCompile Include="PriorityQueue.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

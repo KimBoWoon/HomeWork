@@ -18,18 +18,30 @@
     <ClInclude Include="PriorityQueue.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="Huffman.h">
+    <ClInclude Include="DisjointSet.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MST.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Huffman.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="PriorityQueue.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="HuffmanMain.c">
+    <ClCompile Include="DisjointSet.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MST.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MSTMain.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
