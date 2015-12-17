@@ -5,6 +5,8 @@
 #include <stdio.h>
 #include <string.h>
 
+#pragma warning(disable:4996)
+
 #define MAX 30
 #define MIN(a, b) ((a)<(b)?(a):(b))
 
@@ -23,6 +25,8 @@ int binCoeff(int B[MAX][MAX], int n, int k) {
 int main() {
     int B[MAX][MAX];
     int i, j;
+
+	freopen("output.txt", "w", stdout);
 
     memset(B, 0, sizeof(int) * MAX * MAX);
     printf("%d\n", binCoeff(B, 20, 15));

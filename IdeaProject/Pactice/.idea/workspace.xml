@@ -2,35 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="927ebc36-106e-4434-bcb2-852cc1438acf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/.xml" />
-      <change type="DELETED" beforePath="D:\GitHub\HomeWork\IdeaProject\Pactice\.idea\uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Debug/Stack.exe" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Algorithm.sdf" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Algorithm.sdf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Algorithm.v12.suo" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Algorithm.v12.suo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Debug/GreedyApproach.exe" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Debug/GreedyApproach.exe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Debug/GreedyApproach.ilk" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Debug/GreedyApproach.ilk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Debug/GreedyApproach.pdb" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Debug/GreedyApproach.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Pactice/Practice.class" afterPath="$PROJECT_DIR$/out/production/Pactice/Practice.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/GreedyApproach/Debug/PriorityQueue.obj" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/GreedyApproach/Debug/PriorityQueue.obj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../echo/out/production/echo/message_flow_client_20113259_김보운.class" afterPath="$PROJECT_DIR$/../echo/out/production/echo/message_flow_client_20113259_김보운.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/GreedyApproach/Debug/vc120.idb" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/GreedyApproach/Debug/vc120.idb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/GreedyApproach/Debug/vc120.pdb" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/GreedyApproach/Debug/vc120.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/GreedyApproach/Debug/GreedyApproach.tlog/CL.read.1.tlog" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/GreedyApproach/Debug/GreedyApproach.tlog/CL.read.1.tlog" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/GreedyApproach/Debug/GreedyApproach.tlog/CL.write.1.tlog" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/GreedyApproach/Debug/GreedyApproach.tlog/CL.write.1.tlog" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/GreedyApproach/Debug/GreedyApproach.log" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/GreedyApproach/Debug/GreedyApproach.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/GreedyApproach/GreedyApproach.vcxproj.filters" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/GreedyApproach/GreedyApproach.vcxproj.filters" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/GreedyApproach/GreedyApproach.vcxproj" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/GreedyApproach/GreedyApproach.vcxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Practice.java" afterPath="$PROJECT_DIR$/src/Practice.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/GreedyApproach/Debug/GreedyApproach.tlog/cl.command.1.tlog" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/GreedyApproach/Debug/GreedyApproach.tlog/cl.command.1.tlog" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input.txt" afterPath="$PROJECT_DIR$/input.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/GreedyApproach/Debug/GreedyApproach.tlog/link.command.1.tlog" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/GreedyApproach/Debug/GreedyApproach.tlog/link.command.1.tlog" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/GreedyApproach/Debug/GreedyApproach.tlog/link.read.1.tlog" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/GreedyApproach/Debug/GreedyApproach.tlog/link.read.1.tlog" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/GreedyApproach/Debug/GreedyApproach.tlog/link.write.1.tlog" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/GreedyApproach/Debug/GreedyApproach.tlog/link.write.1.tlog" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../echo/src/message_flow_client_20113259_김보운.java" afterPath="$PROJECT_DIR$/../echo/src/message_flow_client_20113259_김보운.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Debug/Priority_Queue.ilk" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Debug/Priority_Queue.ilk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Debug/Priority_Queue.pdb" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Debug/Priority_Queue.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Debug/Sort.exe" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Debug/Sort.exe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Debug/Sort.ilk" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Debug/Sort.ilk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Debug/Sort.pdb" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Debug/Sort.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Priority_Queue/Debug/Priority_Queue(Array).obj" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Priority_Queue/Debug/Priority_Queue(Array).obj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Priority_Queue/Debug/vc120.idb" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Priority_Queue/Debug/vc120.idb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Priority_Queue/Debug/vc120.pdb" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Priority_Queue/Debug/vc120.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Sort/Debug/Sort.obj" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Sort/Debug/Sort.obj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Sort/Debug/vc120.idb" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Sort/Debug/vc120.idb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Sort/Debug/vc120.pdb" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Sort/Debug/vc120.pdb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../echo/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../echo/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Priority_Queue/Debug/Priority_Queue.log" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Priority_Queue/Debug/Priority_Queue.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Priority_Queue/Debug/Priority_Queue.tlog/CL.read.1.tlog" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Priority_Queue/Debug/Priority_Queue.tlog/CL.read.1.tlog" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Priority_Queue/Debug/Priority_Queue.tlog/CL.write.1.tlog" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Priority_Queue/Debug/Priority_Queue.tlog/CL.write.1.tlog" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Priority_Queue/Debug/Priority_Queue.tlog/Priority_Queue.lastbuildstate" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Priority_Queue/Debug/Priority_Queue.tlog/Priority_Queue.lastbuildstate" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Priority_Queue/Debug/Priority_Queue.tlog/cl.command.1.tlog" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Priority_Queue/Debug/Priority_Queue.tlog/cl.command.1.tlog" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Priority_Queue/Debug/Priority_Queue.tlog/link.command.1.tlog" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Priority_Queue/Debug/Priority_Queue.tlog/link.command.1.tlog" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Priority_Queue/Debug/Priority_Queue.tlog/link.read.1.tlog" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Priority_Queue/Debug/Priority_Queue.tlog/link.read.1.tlog" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Priority_Queue/Debug/Priority_Queue.tlog/link.write.1.tlog" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Priority_Queue/Debug/Priority_Queue.tlog/link.write.1.tlog" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Priority_Queue/Priority_Queue(Array).cpp" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Priority_Queue/Priority_Queue(Array).cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Sort/Debug/Sort.log" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Sort/Debug/Sort.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Sort/Debug/Sort.tlog/CL.read.1.tlog" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Sort/Debug/Sort.tlog/CL.read.1.tlog" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Sort/Debug/Sort.tlog/CL.write.1.tlog" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Sort/Debug/Sort.tlog/CL.write.1.tlog" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Sort/Debug/Sort.tlog/Sort.lastbuildstate" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Sort/Debug/Sort.tlog/Sort.lastbuildstate" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Sort/Debug/Sort.tlog/cl.command.1.tlog" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Sort/Debug/Sort.tlog/cl.command.1.tlog" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Sort/Debug/Sort.tlog/link.command.1.tlog" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Sort/Debug/Sort.tlog/link.command.1.tlog" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Sort/Debug/Sort.tlog/link.read.1.tlog" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Sort/Debug/Sort.tlog/link.read.1.tlog" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Sort/Debug/Sort.tlog/link.write.1.tlog" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Sort/Debug/Sort.tlog/link.write.1.tlog" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Sort/Sort.cpp" afterPath="$PROJECT_DIR$/../../Visual Studio 2013/Projects/Algorithm/Sort/Sort.cpp" />
     </list>
     <ignored path="Pactice.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,12 +57,12 @@
     <favorites_list name="Pactice" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="Practice.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Practice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.59641254">
-              <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.1719457">
+              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,11 +99,9 @@
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
-  </component>
-  <component name="NamedScopeManager">
-    <order />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-9" />
@@ -127,6 +130,8 @@
       <autoscrollToSource />
       <autoscrollFromSource />
       <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="ProjectPane">
@@ -163,13 +168,13 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -178,7 +183,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
-    <property name="FullScreen" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHub/PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c/cmd/git.exe" />
   </component>
   <component name="RunManager" selected="Application.Practice">
     <configuration default="false" name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -220,6 +225,15 @@
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
+      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
+      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
+      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
       <method />
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -241,6 +255,15 @@
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
+      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
+      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
+      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -439,6 +462,12 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
       <method />
     </configuration>
@@ -466,40 +495,42 @@
       <updated>1447678670361</updated>
       <workItem from="1447678672174" duration="2058000" />
       <workItem from="1447854068019" duration="47000" />
+      <workItem from="1449388336250" duration="387000" />
+      <workItem from="1449388785432" duration="22000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2105000" />
+    <option name="totallyTimeSpent" value="2514000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17916666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -522,6 +553,42 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Practice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Practice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Practice.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -564,13 +631,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Practice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59641254">
-          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.1719457">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

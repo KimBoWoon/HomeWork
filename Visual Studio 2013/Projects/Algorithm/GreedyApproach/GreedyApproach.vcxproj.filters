@@ -29,19 +29,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="PriorityQueue.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="DisjointSet.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Graph.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="MST.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="MSTMain.c">
+    <ClCompile Include="CoinChange.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

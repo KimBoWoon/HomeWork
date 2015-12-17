@@ -35,8 +35,8 @@ int main() {
 }
 
 void prims(int arr[][SIZE], Edge selectEdge[SIZE]) {
-	int nearest[SIZE];
-	int distance[SIZE];
+	int nearest[SIZE + 1];
+	int distance[SIZE + 1];
 	int i, selectVertexCnt = 0;
 
 	for (i = 2; i <= SIZE; i++) {

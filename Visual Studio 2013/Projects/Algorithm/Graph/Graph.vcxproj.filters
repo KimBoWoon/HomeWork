@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="GraphSearch.cpp">
+    <ClCompile Include="KruskalsAlgorithm.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

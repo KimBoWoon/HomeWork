@@ -15,7 +15,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="LCS.c">
+    <Text Include="output.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BinomialCoefficient.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

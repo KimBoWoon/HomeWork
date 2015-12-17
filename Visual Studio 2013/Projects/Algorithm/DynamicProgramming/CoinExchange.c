@@ -3,9 +3,15 @@
 //
 
 #include <stdio.h>
+#include <stdlib.h>
 
-#define CHANGE 62
+#pragma warning(disable:4996)
 
+#define CHANGE 21
+
+int comp(const void* x, const void* y) {
+	return *(int*)x - *(int*)y;
+}
 void coinExchange(int coins[], int numDiffCoins, int change, int coinsUsed[], int lastCoin[]) {
     int cents, j;
     /* coinsUsed = C, lastCoin = L */
@@ -36,19 +42,23 @@ void reconstruct(int change, int lastCoin[]) {
 
 int main() {
     int coins[] = {1, 5, 10, 21, 25};
-    int coinsUsed[CHANGE], lastCoin[CHANGE];
+    int coinsUsed[CHANGE + 1], lastCoin[CHANGE + 1];
     int i;
+
+	freopen("output.txt", "w", stdout);
+
+	qsort(coins, sizeof(coins) / sizeof(coins[0]), sizeof(coins[0]), comp);
 
     coinExchange(coins, sizeof(coins) / sizeof(coins[0]), CHANGE, coinsUsed, lastCoin);
 
     for (i = 0; i < CHANGE + 1; i++)
-        printf("\t%d ", i);
+        printf("%d\t", i);
     printf("\n");
     for (i = 0; i < CHANGE + 1; i++)
-        printf("\t%d ", coinsUsed[i]);
+        printf("%d\t", coinsUsed[i]);
     printf("\n");
     for (i = 0; i < CHANGE + 1; i++)
-        printf("\t%d ", lastCoin[i]);
+        printf("%d\t", lastCoin[i]);
     printf("\n");
 
     reconstruct(CHANGE, lastCoin);

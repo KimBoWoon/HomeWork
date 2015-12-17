@@ -1,0 +1,3 @@
+﻿  CrossWordMain.cpp
+d:\github\homework\visual studio 2013\projects\crossword\crossword\crosswordmain.cpp(34): warning C4018: '>' : signed 또는 unsigned가 일치하지 않습니다.
+  CrossWord.vcxproj -> D:\GitHub\HomeWork\Visual Studio 2013\Projects\CrossWord\Debug\CrossWord.exe

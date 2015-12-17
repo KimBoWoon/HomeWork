@@ -97,7 +97,7 @@ void PriorityQueue::dequeue()
 
 void PriorityQueue::show()
 {
-	cout << "Priority Queue Size >> " << size << endl;
+	cout << "Priority Queue Size >> " << size - 1 << endl;
 	cout << "Priority Queue >> ";
 	for (int i = 1; i < size; i++)
 		(i == size - 1) ? cout << queue[i] << endl : cout << queue[i] << " ";

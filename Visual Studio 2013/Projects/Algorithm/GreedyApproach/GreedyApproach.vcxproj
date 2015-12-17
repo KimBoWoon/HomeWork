@@ -17,11 +17,7 @@
     <ClInclude Include="PriorityQueue.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DisjointSet.c" />
-    <ClCompile Include="Graph.c" />
-    <ClCompile Include="MST.c" />
-    <ClCompile Include="MSTMain.c" />
-    <ClCompile Include="PriorityQueue.c" />
+    <ClCompile Include="CoinChange.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{18A03B60-FB96-4B43-9BAE-078CCD5032AD}</ProjectGuid>

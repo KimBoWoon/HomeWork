@@ -1,5 +1,5 @@
 #include <iostream>
-#include <ctime>
+#include <Windows.h>
 using namespace std;
 
 class Sort{
@@ -168,24 +168,27 @@ int main(){
 	int arr[7] = { 3, 2, 4, 1, 7, 6, 5 };
 	Sort sort;
 	int size = sizeof(arr) / sizeof(int);
-	clock_t start = 0, end = 0;
+	LARGE_INTEGER start, end, frequency;
 	
-	start = clock();
+	QueryPerformanceFrequency(&frequency);
+
+	QueryPerformanceCounter(&start);
 	//cout << "<<Bubble Sorting>>" << endl;
 	//sort.BubbleSorting(arr, size);
-	cout << "<<Selection Sorting>>" << endl;
-	sort.SelectionSorting(arr, size);
+	//sort.SelectionSorting(arr, size);
+	//cout << "<<Selection Sorting>>" << endl;
 	//cout << "<<Insertion Sorting>>" << endl;
 	//sort.InsertionSorting(arr, size);
-	//cout << "<<Heap Sorting>>" << endl;
-	//sort.HeapSorting(arr, size - 1);
+	cout << "<<Heap Sorting>>" << endl;
+	sort.HeapSorting(arr, size - 1);
 	//cout << "<<Merge Sorting>>" << endl;
 	//sort.MergeSorting(arr, 0, size - 1);
 	//cout << "<<Quick Sorting>>" << endl;
 	//sort.QuickSorting(arr, 0, size - 1);
-	end = clock();
+	QueryPerformanceCounter(&end);
 
 	for (int i = 0; i < size; i++)
 		(i == size - 1) ? cout << arr[i] << endl : cout << arr[i] << " ";
-	cout << "수행 시간 : " << (end - start) * CLOCKS_PER_SEC << "초" << endl;
+
+	cout << "TIME : " << (double)(end.QuadPart - start.QuadPart) / (double)frequency.QuadPart << endl;
 }
