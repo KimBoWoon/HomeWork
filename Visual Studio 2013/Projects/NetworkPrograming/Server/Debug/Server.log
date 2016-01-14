@@ -1,3 +1,0 @@
-﻿  Server.c
-c:\users\보운\documents\visual studio 2013\projects\networkprograming\server\server.c(57): warning C4101: 'port' :참조되지 않은 지역 변수입니다.
-  Server.vcxproj -> C:\Users\보운\documents\visual studio 2013\Projects\NetworkPrograming\Debug\Server.exe
