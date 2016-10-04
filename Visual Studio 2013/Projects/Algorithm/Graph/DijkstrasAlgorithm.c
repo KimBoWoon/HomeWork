@@ -81,3 +81,66 @@ void edgePrint(int start, int length[SIZE]) {
 	for (i = 1; i < SIZE; i++)
 		printf("%d : %d\n", i, abs(length[i]));
 }
+
+#include <cstdio>
+
+#define SIZE 1001
+#define INF 1000000000
+
+int a[SIZE][SIZE], visit[SIZE], dist[SIZE];
+int start, end, n, m;
+
+void dijkstra() {
+	int i, j;
+	int min;
+	int v;
+
+	dist[start] = 0;
+
+	for (i = 1; i <= n; i++) {
+		min = INF;
+
+		for (j = 1; j <= n; j++) {
+			if (visit[j] == 0 && min > dist[j]) {
+				min = dist[j];
+				v = j;
+			}
+		}
+
+		visit[v] = 1;
+
+		for (j = 1; j <= n; j++) {
+			if (dist[j] > dist[v] + a[v][j])
+				dist[j] = dist[v] + a[v][j];
+		}
+	}
+}
+
+
+int main(void) {
+	int from, to, w;
+
+	scanf("%d %d", &n, &m);
+
+	for (int x = 1; x <= n; x++) {
+		for (int y = 1; y <= n; y++) {
+			a[x][y] = INF;
+		}
+	}
+
+	for (int i = 0; i < m; i++) {
+		scanf("%d %d", &from, &to);
+		scanf("%d", &a[from][to]);
+	}
+
+	for (int i = 1; i <= n; i++)
+		dist[i] = INF;
+
+	scanf("%d %d", &start, &end);
+
+	dijkstra();
+
+	printf("%d \n", dist[end]);
+
+	return 0;
+}
